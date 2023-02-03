@@ -68,6 +68,10 @@ const Navbar = () => {
             <li className='py-6 text-4xl'><Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
             </Link></li>
+            <li className='py-6 text-4xl'><a  href="/Cullen_Watson_Resume.pdf" target="_blank" rel="noopener noreferrer">
+		CV
+            
+            </a></li>
         </ul>
 
         {/* social icons */}
