@@ -38,6 +38,10 @@ const Navbar = () => {
             <li><Link  to="contact" smooth={true} duration={500}>
             Contact
             </Link></li>
+            <li><a  href="/Cullen_Watson_Resume.pdf" target="_blank" rel="noopener noreferrer">
+		CV
+            
+            </a></li>
 
         </ul>
    
