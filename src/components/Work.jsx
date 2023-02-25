@@ -1,9 +1,10 @@
 import React from 'react'
 import duck from '../assets/duck.png'
-import index from '../assets/index.jfif'
 import flight from '../assets/flight.jpg'
 import tweet from '../assets/tweet.png'
 import movie from '../assets/movie.jpg'
+import indexer from '../assets/indexer.jpeg'
+import community from '../assets/community.webp'
 const Work = () => {
   return (
     <div name='work' className='w-full md:h-screen text-gray-300 text-gray-300 bg-[#0a192f]'>
@@ -15,7 +16,7 @@ const Work = () => {
 
             {/* Container */}
             <div 
-             className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
+             className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
                 
                 {/* Grid item */}
                 <div style={{backgroundImage: `url(${movie})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
@@ -30,6 +31,24 @@ const Work = () => {
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Site</button>
                             </a>
                             <a href="https://github.com/drew-harris/db-gui-team-1" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {/* Grid item */}
+                <div style={{backgroundImage: `url(${community})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover Effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold  text-white tracking-wider'>
+				Community Detection
+                        </span>
+                        <div className='pt-8 text-center'>
+                        <a href="https://medium.com/smucs/girvan-newman-and-louvain-algorithms-for-community-detection-f3feb7c31908" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Article</button>
+                            </a>
+                            <a href="https://github.com/cullenwatson/community-detection" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -85,6 +104,24 @@ const Work = () => {
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href="https://github.com/cullenwatson/tweet_sentiment_analyzer" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {/* Grid item */}
+                <div style={{backgroundImage: `url(${indexer})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover Effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold  text-white tracking-wider'>
+                            Auto Indexer
+                        </span>
+                        <div className='pt-8 text-center'>
+                        <a href="https://www.youtube.com/watch?v=CTTfShIPI28" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/cullenwatson/auto-indexer" target="_blank">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>

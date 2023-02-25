@@ -12,13 +12,13 @@ const About = () => {
                     </div>
                     <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                         <div className='sm:text-right text-4xl font-bold'>
-                            <p>Hi. I'm Cullen, nice to meet you. Please take a look around!</p>
+                            <p> Nice to meet you. Please take a look around!</p>
                         </div>
                         <div>
                             <p>
                                 I am passionate abould building great software that
                                 solves people's problems. I want to improve the lives of people around me by saving time through automation and innovation. I am familiar with many programming languages, such as Java, Python, and C++. In my free time, I'm currently
-                                learning React / Tailwind CSS to design websites.
+                                learning the T3 stack to design websites.
                             </p>
                         </div>
                     </div>

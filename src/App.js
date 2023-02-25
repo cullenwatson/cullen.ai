@@ -17,7 +17,7 @@ function App() {
 
         {/* components */}
         < Navbar />
-        <Home />
+        <Home/>
         <About />
         <Skills />
         <Work />
