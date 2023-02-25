@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.a591e81e.css",
-    "main.js": "/static/js/main.7983f54b.js",
+    "main.css": "/static/css/main.655099a9.css",
+    "main.js": "/static/js/main.2d3c52d8.js",
+    "static/media/community.webp": "/static/media/community.d89a32ed7f56b23b9c08.webp",
+    "static/media/indexer.jpeg": "/static/media/indexer.e12c22afef74799303fe.jpeg",
     "static/media/movie.jpg": "/static/media/movie.0de72ee92427dcafa0bd.jpg",
     "static/media/flight.jpg": "/static/media/flight.b5cc2ebb01e794432075.jpg",
     "static/media/aws.png": "/static/media/aws.95bdee6b9922c9b94fd5.png",
@@ -14,15 +16,14 @@
     "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/tweet.png": "/static/media/tweet.2012bccde918a4efd4c3.png",
-    "static/media/index.jfif": "/static/media/index.e83c4349b9d1db8cbdf2.jfif",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/java.png": "/static/media/java.6c64373d3b7415758078.png",
     "index.html": "/index.html",
-    "main.a591e81e.css.map": "/static/css/main.a591e81e.css.map",
-    "main.7983f54b.js.map": "/static/js/main.7983f54b.js.map"
+    "main.655099a9.css.map": "/static/css/main.655099a9.css.map",
+    "main.2d3c52d8.js.map": "/static/js/main.2d3c52d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.a591e81e.css",
-    "static/js/main.7983f54b.js"
+    "static/css/main.655099a9.css",
+    "static/js/main.2d3c52d8.js"
   ]
 }
