@@ -22,7 +22,7 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${movie})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='text-center opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold  text-white tracking-wider'>
 				Movie Reviews
                         </span>
@@ -40,7 +40,7 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${community})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='text-center opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold  text-white tracking-wider'>
 				Community Detection
                         </span>
@@ -58,7 +58,7 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${duck})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='text-center opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold  text-white tracking-wider'>
                             Search Engine
                         </span>
@@ -77,7 +77,7 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${flight})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='text-center opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold  text-white tracking-wider'>
                             Flight Planner
                         </span>
@@ -95,7 +95,7 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${tweet})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='text-center opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold  text-white tracking-wider'>
                             Tweet Sentiment
                         </span>
@@ -113,7 +113,7 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${indexer})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    <div className='text-center opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold  text-white tracking-wider'>
                             Auto Indexer
                         </span>
