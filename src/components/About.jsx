@@ -12,13 +12,11 @@ const About = () => {
                     </div>
                     <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                         <div className='sm:text-right text-4xl font-bold'>
-                            <p> Nice to meet you. Please take a look around!</p>
+                            <p> Experienced full stack developer, T3 certified</p>
                         </div>
                         <div>
                             <p>
-                                I am passionate abould building great software that
-                                solves people's problems. I want to improve the lives of people around me by saving time through automation and innovation. I am familiar with many programming languages, such as Java, Python, and C++. In my free time, I'm currently
-                                learning the T3 stack to design websites.
+                            I'm a skilled full stack developer with experience in modern front-end frameworks like React and Next.js, and back-end technologies such as Prisma and Fastify. I'm also proficient in using the T3 stack (tRPC, TailwindCSS, and TypeScript) to create efficient and maintainable code. With my problem-solving skills and passion for learning, I'm confident in my ability to deliver high-quality web applications that meet the needs of my clients.
                             </p>
                         </div>
                     </div>
