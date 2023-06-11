@@ -3,8 +3,9 @@ import duck from '../assets/duck.png'
 import flight from '../assets/flight.jpg'
 import tweet from '../assets/tweet.png'
 import movie from '../assets/movie.jpg'
-import indexer from '../assets/indexer.jpeg'
 import community from '../assets/community.webp'
+import kb from '../assets/kb.jpeg'
+
 const Work = () => {
   return (
     <div name='work' className='w-full md:h-screen text-gray-300 text-gray-300 bg-[#0a192f]'>
@@ -17,7 +18,21 @@ const Work = () => {
             {/* Container */}
             <div 
              className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-                
+                    <div style={{backgroundImage: `url(${kb})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover Effects */}
+                    <div className='text-center opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold  text-white tracking-wider'>
+                            JobSpy
+                        </span>
+                        <div className='pt-8 text-center'>
+                        <a href="https://jobspy.ai" target="_blank">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Site</button>
+                            </a>
+                          
+                        </div>
+                    </div>
+                </div> 
                 {/* Grid item */}
                 <div style={{backgroundImage: `url(${movie})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
@@ -110,23 +125,7 @@ const Work = () => {
                     </div>
                 </div>
                 {/* Grid item */}
-                <div style={{backgroundImage: `url(${indexer})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* Hover Effects */}
-                    <div className='text-center opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold  text-white tracking-wider'>
-                            Auto Indexer
-                        </span>
-                        <div className='pt-8 text-center'>
-                        <a href="https://www.youtube.com/watch?v=CTTfShIPI28" target="_blank">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="https://github.com/cullenwatson/auto-indexer" target="_blank">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+           
             </div>
 
         </div>
