@@ -23,7 +23,7 @@ const Work = () => {
                     {/* Hover Effects */}
                     <div className='text-center opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold  text-white tracking-wider'>
-                            JobSpy
+                            jobspy.ai
                         </span>
                         <div className='pt-8 text-center'>
                         <a href="https://jobspy.ai" target="_blank">
@@ -39,7 +39,7 @@ const Work = () => {
                     {/* Hover Effects */}
                     <div className='text-center opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold  text-white tracking-wider'>
-				Movie Reviews
+				flickaid.com
                         </span>
                         <div className='pt-8 text-center'>
                         <a href="https://flickaid.com" target="_blank">
