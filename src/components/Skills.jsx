@@ -31,12 +31,12 @@ const Skills = () => {
                     <p className='my-4'>JAVA</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mt-6 mx-auto' src={Typescript} alt="PYTHON icon"></img>
+                    <img className='w-20 mt-4 mx-auto' src={Typescript} alt="PYTHON icon"></img>
                     <p className='my-4'>TYPESCRIPT</p>
                 </div>
               
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto mt-5' src={Github} alt="Github icon"></img>
+                    <img className='w-20 mx-auto mt-4' src={Github} alt="Github icon"></img>
                     <p className='my-4'>GIT</p>
                 </div>
 
