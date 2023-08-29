@@ -12,11 +12,11 @@ const About = () => {
                     </div>
                     <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                         <div className='sm:text-right text-4xl font-bold'>
-                            <p> Versatile Full-Stack Software Architect</p>
+                            <p> Versatile Engineer </p>
                         </div>
                         <div>
                             <p>
-                            I'm a skilled full stack developer with experience in modern front-end frameworks like React and Next.js, and back-end technologies such as Prisma and Fastify. I'm also proficient in using the T3 stack (tRPC, TailwindCSS, and TypeScript) to create efficient and maintainable code. 
+                            I'm a skilled backend developer with experience in modern API frameworks like Fastify & FastAPI, along with backend knowledge in Architectural Patterns, Databases, & CI/CD workflows. Besides the tools I use, I am personable & collobarate effectively with other to create efficient & maintainable code. 
                             </p>
                         </div>
                     </div>
