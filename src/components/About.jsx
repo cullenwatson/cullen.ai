@@ -16,7 +16,7 @@ const About = () => {
                         </div>
                         <div>
                             <p>
-                            I'm a skilled backend developer with experience in modern API frameworks like Fastify & FastAPI, along with backend knowledge in Architectural Patterns, Databases, & CI/CD workflows. Besides the tools I use, I am personable & collobarate effectively with other to create efficient & maintainable code. 
+                            I am a skilled backend developer with experience in modern API frameworks such as Fastify and FastAPI. My expertise extends to architectural patterns, databases, and CI/CD workflows. Beyond my technical skills, I am a personable individual who collaborates effectively with others to produce efficient and maintainable code.
                             </p>
                         </div>
                     </div>
